@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Container, Row, Col, ProgressBar, Card } from "react-bootstrap";
 
 function Skills() {
