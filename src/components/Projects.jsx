@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
 
 function Projects() {
@@ -37,8 +36,7 @@ function Projects() {
       image:
         "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=500",
       technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-      githubUrl:
-        "https://github.com/Sanjayraj-G-T/Inventory_management_system",
+      githubUrl: "https://github.com/Sanjayraj-G-T/Inventory_management_system",
     },
   ];
 

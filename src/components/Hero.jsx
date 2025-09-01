@@ -1,19 +1,15 @@
-import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Hero() {
-  
-
   return (
     <section id="home" className="hero-section">
-      
       <div className="hero-overlay"></div>
       <Container className="hero-content-container">
         <Row className="align-items-center">
           <Col lg={8} className="mx-auto text-center">
             <h1 className="hero-title animate-on-scroll">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span style={{ color: "var(--accent-color)" }}>
                 Sanjayraj G. T.
               </span>

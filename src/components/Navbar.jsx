@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Navbar as BootstrapNavbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/sanjayraj-bg.png";

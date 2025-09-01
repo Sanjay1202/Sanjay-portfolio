@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { useState, useEffect } from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -10,15 +10,15 @@ function Header() {
       setScrolled(isScrolled);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <Navbar 
-      expand="lg" 
-      fixed="top" 
-      className={`navbar-custom ${scrolled ? 'scrolled' : ''}`}
+    <Navbar
+      expand="lg"
+      fixed="top"
+      className={`navbar-custom ${scrolled ? "scrolled" : ""}`}
     >
       <Container>
         <Navbar.Brand href="#home" className="fw-bold text-white">
