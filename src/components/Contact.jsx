@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
 
 function Contact() {
